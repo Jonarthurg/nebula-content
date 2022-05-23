@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    color: blue
+    
+}
+
+.ulItems{
+    text-align: center;
+
+    
+
+
+}
+
+#mimikyu{
+
+    color: yellowgreen
+}
+
+p{
+text-align: center;
+font-size: larger;
+color: brown;
+
+font-style: italic;
+
+}
+
+
+li{
+
+    font-size: larger;    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace
+
+}
+
+
+.grid-container{
+    display:flex;
+    justify-content:flex-start;
+  }
+
+
+  body{
+    background-color: #333333;
+    color: #b5b5b5;
+    text-align: center;
+    font-family: helvetica;
+  }
+
+  div {
+
+    margin-right: 20px;
+    margin-left: 20px;
+
+
+  }
+  

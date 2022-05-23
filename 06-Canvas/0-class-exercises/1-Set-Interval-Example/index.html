@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Canvas Example</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+    <body>
+        <!-- 
+            The canvas element can only use two attributes, width & height. If not specified, the default
+            will initially be 300px wide & 150px high.
+
+            You can also set width and height and other styles with CSS of course. There are some gotchas to watch out for.
+            Use the documentation when things don't quite work out (like if your rendering seems distored).
+
+            Just by convention we give our canvas an id. It also needs to have a closing </canvas> tag.
+
+            We should provide Fallback content for our canvas element for browsers that do not support the element.
+            Just insert the fallback content inside the element itself.
+        -->
+        <canvas id="canvas"> This is my fallback content. Your browser is irrelevant. </canvas>
+        <script src="script.js"></script>
+    </body>
+</html>

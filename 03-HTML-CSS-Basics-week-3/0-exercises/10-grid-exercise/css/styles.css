@@ -1,0 +1,71 @@
+body {
+    font-family: 'Syne Mono', monospace;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightskyblue;
+}
+
+h1 {
+    font-size: 25px;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+#grid-container {
+    font-size: 14px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    /* max-height & max-width are responsive properties */
+    max-height: 800px;
+    max-width: 800px;
+    background-color:bisque;
+    border:1px solid cornflowerblue;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color:azure;
+}   
+
+span {
+    margin-top: 20px;
+    padding: 5px;
+    background-color:tomato;
+    border-radius: 2px;
+}
+
+img {
+    border: 1px solid teal;
+    width: 100%;
+}
+
+p { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5px;
+    background-color:azure;
+    border: 1px solid thistle;
+}
+
+.computer {
+    background-color: rgb(241,49,124);
+}
+
+.doom {
+    background-color: rgb(128,128,130);
+}
+
+.nature {
+    background-color: rgb(103,154,41);
+}
+
+.orange-water-fall {
+    background-color: rgb(243,125,73);
+}

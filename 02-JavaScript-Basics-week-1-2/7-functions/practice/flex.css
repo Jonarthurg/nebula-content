@@ -1,0 +1,68 @@
+#flex-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+}
+
+.flex{
+   
+    background-color: blueviolet;
+    width: 75px;
+    margin: 5px;
+
+}
+
+#flex-secondParent{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-between;
+
+
+
+}
+
+.extraFlex{
+   
+    background-color: yellow;
+    width: 75px;
+    margin: 5px;
+
+}
+
+
+
+.ridiculousFlex{
+   
+    background-color:red;
+    width: 75px;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    justify-content: space-between;
+
+}
+
+
+#flex-thirdParent{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-between;
+
+
+
+}
+
+.transparent{
+
+
+background-color: transparent;
+text-color;
+
+}

@@ -1,0 +1,18 @@
+#intro-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height: 50%;
+  background-color: blue;
+  margin: 1em;
+}
+
+#intro-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-color: teal;
+}

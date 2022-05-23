@@ -1,0 +1,36 @@
+.mammals {
+    background: lavenderBlush;
+}
+.birds {
+    background: lightGray;
+}
+.fish {
+    background: lightYellow;
+}
+#dog {
+    color: tan;
+}
+#canary {
+    color: orangeRed;
+}
+#penguin {
+    color: black;
+}
+#salmon {
+    color: salmon;
+}
+#cat {
+    color: sienna;
+}
+#goldfish {
+    color: gold;
+}
+#sheep {
+    color: steelBlue;
+}
+#parakeet {
+    color: lime;
+}
+#tuna {
+    color: purple;
+}

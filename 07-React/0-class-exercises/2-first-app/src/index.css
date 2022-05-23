@@ -1,0 +1,12 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.names {
+  margin: 5px;
+  color: "teal";
+  font-size: 18px;
+}

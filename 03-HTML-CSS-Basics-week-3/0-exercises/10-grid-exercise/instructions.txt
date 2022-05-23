@@ -1,0 +1,10 @@
+Instructions for this assignment:
+       Go into the images folder and find the file labeled
+       "final-result.png". You want to try and replicate this image by
+       adding css to the HTML structure I've provided. The idea is to not
+       change the HTML - just style it. Make sure you add your own css
+       to a new file and link it to the HTML. Don't add anything to the reset.css file.
+
+       You should be trying to use grid and flexbox where ever you see fit.
+       Make sure to use the link to your CSS file (from your github) as a submission to
+       the homework.

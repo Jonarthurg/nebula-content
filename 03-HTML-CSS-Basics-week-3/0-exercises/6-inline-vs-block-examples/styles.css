@@ -1,0 +1,25 @@
+body {
+    /* vh and vw - viewport height and width */
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#180f0f, #f7720c);
+    color:rgb(254, 132, 1);
+}
+
+span {
+    padding: 10px;
+    border: 1px solid green;
+}
+
+div {
+    height: 80px;
+    margin: 20px;
+}
+
+p {
+    border: 2px solid rgb(157, 1, 103);
+    padding: 20px;
+}
+
+
+

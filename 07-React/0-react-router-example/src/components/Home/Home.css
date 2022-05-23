@@ -1,0 +1,58 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Home-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Home-header {
+  background: linear-gradient(#5d4661, #433246);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+}
+
+.Home-header span {
+  font-size: .75em;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.Home-link {
+  color: #61dafb;
+}
+
+img {
+  height: 50vh;
+}
+
+button {
+  padding: .5em;
+  margin: 2px;
+}

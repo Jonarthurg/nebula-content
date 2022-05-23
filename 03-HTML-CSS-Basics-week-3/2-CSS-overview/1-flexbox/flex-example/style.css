@@ -1,0 +1,64 @@
+p {
+    font-family: Arial;
+    color: darkorchid !important;
+}
+
+
+p {
+    color: green;
+}
+
+.outter {
+    background-color: purple;
+    width: 100%;
+}
+
+.outter :hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.inner {
+    background-color: green;
+    width: 100%;
+}
+
+.inner2{
+    background-color: pink;
+    width: 50%;
+}
+
+
+@media screen and (max-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    .outter{
+        display: none;
+    }
+  }
+
+
+  .container{
+      background-color: rgb(156, 35, 156);
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+      /* align-items: center; */
+  }
+
+  .box {
+      padding: 5px;
+      background-color: orange;
+      margin: 10px;
+      width: 60px;
+      height: 60px;
+  }
+
+  #box {
+    width: 100px;
+    height: 100px;
+}

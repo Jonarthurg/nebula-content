@@ -1,0 +1,16 @@
+body {
+    /* vh: a measurement for viewport height */
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+div {
+    background-color: teal;
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 7px 7px 10px #fdfdfd1e;
+}

@@ -1,0 +1,74 @@
+#all-examples {
+    margin-left: 75px;
+}
+
+.top-div {
+    width: 250px;
+    height: 200px;
+    background-color: teal;
+}
+
+.middle-div {
+    position: relative;
+    margin: 0;
+    width: 350px;
+    height: 300px;
+    background-color: blue;
+    opacity: .3;
+}
+
+.bottom-div {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+#relative-position-example {
+    top: 15px;
+}
+
+#abs-parent {
+    position: relative;
+    border: 5px solid purple;
+}
+
+#abs-example {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    border-left: 5px solid black;
+    background-color: yellow;
+    opacity: .5;
+}
+
+#fixed-pos-example {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: pink;
+    opacity: .6;
+}
+
+#sticky-pos-example {
+    position: sticky;
+    top: 500px;
+    opacity: .6;
+}
+
+#top-z {
+    position: relative;
+    top: 25px;
+    z-index: 2;
+}
+
+#middle-z {
+    position: relative;
+    left: 20px;
+    opacity: 1;
+    z-index: 1;
+}
+
+#bottom-z {
+    position: relative;
+    bottom: 25px;
+}

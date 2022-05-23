@@ -1,0 +1,28 @@
+* {
+    border: 5px solid gold;
+}
+
+html {
+    border: none;
+}
+
+body {
+    padding: 40px;
+}
+
+p {
+    border: 5px solid purple;
+}
+
+div {
+    padding: 40px;
+}
+
+body {
+    background-color: teal;
+}
+
+img {
+    border: 2px solid red;
+    width: 500px;
+}

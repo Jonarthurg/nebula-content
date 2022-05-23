@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="domStyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Test</title>
+</head>
+<body>
+
+    <h1>Extract this!</h1>
+
+    
+    <h1 id="someID" >Extract a new this!</h1>
+    
+    <div>
+        <h1>Hello random entry!</h1>
+    </div>
+
+    </div>
+
+        <h1 class = "random" >Extract the last, new this!</h1>
+
+   
+
+
+
+    <div id="jesus">
+        <h1> Jesus </h1>
+
+    </div>
+
+
+    <div id = "secondDiv" >
+
+        <h1>IS KING.</h1>
+
+    </div>
+
+  
+
+
+
+    <button onclick = "addApostle()">Click for an Apostle</button>
+
+    <p>The text content of the button is: </p>
+
+    <p id="demo"> </p>
+
+
+    <script>
+
+   let text = document.getElementById("firstButton").textContent
+   document.getElementById("demo").innerHTML = text
+
+
+    </script>
+
+<script src= 'domNotes.js'></script>
+
+    
+</body>
+</html>
