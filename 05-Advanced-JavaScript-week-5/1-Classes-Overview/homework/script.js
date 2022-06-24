@@ -10,10 +10,11 @@ class Person {
 
 
 
-class jediKnight extends Person{
+
+class JediKnight extends Person{
 constructor(name,age,rank){
     super(name,age)
-    this.rank=rank
+    this.rank = rank
 }
 
 presentRank(jediKnight){
@@ -27,7 +28,7 @@ console.log("What is your rank " + jediKnight.name + "?")
 
 
 
-class youngPadawan extends Person{
+class YoungPadawan extends Person{
     constructor(name,age,rank){
         super(name,age)
         this.rank = rank

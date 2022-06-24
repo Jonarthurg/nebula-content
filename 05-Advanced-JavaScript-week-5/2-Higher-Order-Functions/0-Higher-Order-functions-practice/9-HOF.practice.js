@@ -2,6 +2,10 @@
 // 1.   Write a hof function which returns the first number larger than 100
 const nums = [23,89,300,45,2, 120]
 
+
+
+// console.log("number higher than 100 : " + nums.find(el => el > 100))
+
 // 2.   Write a hof which lists a set of people based on their birth year
 const people = [
     { name: "Dan", birthYear: 1981 },
@@ -12,8 +16,16 @@ const people = [
     { name: "Tim", birthYear: 2003 },
     ];
 
+
+people.sort((a,b) => { return a.birthYear - b.birthYear})
+
+// console.log(people)
+
 // 3.   Given an array of cars only list cars that are build pre-2000
 const cars = [{model: "Dodge", make: 2001},{model:"Ford", make:2012},{model:"Honda", make:1989},{model:"Hondi",make:1990}]
+
+
+console.log(cars.filter(el => el.make < 2000))
 
 // 4.   Given an array of phone numbers return an array of protected phone numbers so that it has this structure:
 //      input: 555-555-5555, output: 5##-###-#555
@@ -24,6 +36,8 @@ const phoneNums = [
     "917-987-2125",
     "347-123-4567",
     ];
+
+    
 
 // 5.   Given an array of numbers write a HOF that logs to the console:
 //      `Thats a big number!` if it's larger than 1000 or
