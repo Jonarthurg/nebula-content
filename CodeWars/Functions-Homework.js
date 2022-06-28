@@ -69,8 +69,60 @@ class SmallestIntegerFinder {
 const solution = new SmallestIntegerFinder()
 
 
-console.log(solution.findSmallestInt(args))
+// console.log(solution.findSmallestInt(args))
 
 
 
 
+
+
+
+
+
+
+
+
+
+// I'm new to coding and now I want to get the sum of two arrays...actually the sum of all their elements. I'll appreciate for your help.
+
+// P.S. Each array includes only integer numbers. Output is a number too.
+
+
+function arrayPlusArray(arr1, arr2) {
+  let total = 0
+  for(let i = 0; i < arr1.length; i++){
+    total += arr1[i]
+    
+  }
+  
+  for(let j = 0; j < arr2.length; j++){
+    total += arr2[j]
+    
+  }
+  return total
+  
+  
+  
+}
+
+const randomArray = [1,2,3]
+
+const secondRandomArray = [4,5,6]
+
+
+console.log(arrayPlusArray(randomArray,secondRandomArray))
+
+
+
+
+
+
+// We need a function that can transform a string into a number. What ways of achieving this do you know?
+
+// Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
+
+
+const stringToNumber = function(str){
+  // put your code here
+  return str * 1;
+}
